@@ -1,0 +1,23 @@
+{
+  "name": "market-data-parser",
+  "version": "1.0.0",
+  "description": "Convert the .csv file to required format(HTML or JSON, by default it returns JSON)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js src/**/*.js --ignore-pattern node_modules/ --fix"
+  },
+  "author": "Harini Thangavel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "stream": "^0.0.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  }
+}
